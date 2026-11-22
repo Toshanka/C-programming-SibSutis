@@ -16,7 +16,7 @@ int main(void) {
     int a[] = {4, 2};
     int n = sizeof(a) / sizeof(a[0]);
 
-    printf("До сортировки: ");
+    printf("before sort: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", a[i]);
     }
@@ -24,7 +24,7 @@ int main(void) {
 
     bubble_sort(a, n);
 
-    printf("После сортировки: ");
+    printf("after sort: ");
     for (int i = 0; i < n; i++) {
         printf("%d ", a[i]);
     }
